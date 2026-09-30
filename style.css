@@ -1,0 +1,101 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: #eeeeee;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #1b0d24;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    color: #b56de8;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #bbbbbb;
+    font-size: 17px;
+}
+
+/* Conteúdo */
+
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 35px auto;
+}
+
+/* Seções */
+
+.card {
+    background-color: #171717;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #302238;
+}
+
+.card h2 {
+    color: #b56de8;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #d0d0d0;
+    margin-bottom: 12px;
+}
+
+/* Lista */
+
+ul {
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+li {
+    color: #d0d0d0;
+    margin-bottom: 7px;
+}
+
+li::marker {
+    color: #9b4dcc;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #1b0d24;
+    text-align: center;
+    padding: 20px;
+    color: #999999;
+}
+
+/* Celular */
+
+@media (max-width: 600px) {
+
+    main {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 34px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+}
